@@ -1,0 +1,68 @@
+---
+title: "Data Visualization 2018 Survey"
+author: "Mara Averick"
+date: "6/23/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.retina = 2)
+```
+
+Based on [2018 Data Visualizatio Survey Results](https://medium.com/@Elijah_Meeks/2018-data-visualization-survey-results-26a90856476b) by Elijah Meeks, (GitHub repo [here](https://github.com/emeeks/data_visualization_survey)).
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(here))
+```
+
+```{r, include = FALSE}
+results_2018 <- read_tsv(file = here::here("data", "cleaned_survey_results_2018.tsv"))
+
+# add id row
+results_2018 <- results_2018 %>%
+  mutate(respondent_id = as.character(row_number()))
+```
+
+```{r}
+skimr::skim_to_list(results_2018)
+```
+
+
+```{r, include = FALSE}
+write_csv(results_2018, path = here::here("output", "survey_results_2018.csv"))
+```
+
+Get only records with responses to "thought leaders" question.
+
+```{r}
+thought_leaders <- results_2018 %>%
+  select(one_of(c("respondent_id", 
+                  "Who do you look to as a thought leader in data visualization?"))) %>%
+  rename("leader" = "Who do you look to as a thought leader in data visualization?") %>%
+  filter(!is.na(leader))
+
+head(thought_leaders)
+```
+
+Looks like there's more than one answer per respondent (_duh_)! Let's use `separate_rows()` to tidy things up a bit.
+
+```{r}
+thought_leaders <- thought_leaders %>%
+  separate_rows(leader, sep = ",") %>%
+  mutate(leader = tolower(leader))
+```
+
+```{r, include = FALSE}
+thought_leaders <- read_csv(here::here("output", "thought_leaders.csv"),
+                            col_types = cols(respondent_id = col_character())) %>%
+  filter(!is.na(leader)) %>%
+  mutate(leader = tolower(leader))
+```
+
+```{r}
+skimr::skim(thought_leaders)
+```
+
+
+

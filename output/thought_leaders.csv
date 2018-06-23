@@ -1,0 +1,772 @@
+respondent_id,leader
+2,Lisa Charlotte Rost
+3,New York Times
+4,Edward Tufte
+4,Alberto Cairo
+4,Andy Kirk
+4,Elijah Meeks
+4,Lisa Charlotte Rost
+4,Shirley Wu
+4,Nadieh Bremer
+5,Elijah Meeks
+5,Nadieh Bremer
+5,Shirley Wu
+5,Mike Bostock
+6,Mike Bostock
+6,Plotly
+7,Tableau
+7,PowerBI
+11,Koponen
+11,Hildén
+13,Susie Lu
+13,Nadieh Bremer
+13,Mike Bostock
+13,Hadley Wickham
+15,Elijah Meeks
+15,Nadieh Bremer
+15,Edward Tufte
+19,Scott Murray
+19,Nadieh Bremer
+19,Andy Kirk
+19,Shirley Wu
+19,Alberto Cairo
+20,Shirley Wu
+23,Adam Pearce
+23,Denise Lu
+23,Pudding
+24,Alberto Cairo
+24,Elijah Meeks
+24,Andy Kirk
+24,Edward Tufte
+25,Alberto Cairo
+25,Mike Bostock
+25,Giorgia Lupi
+26,Edward Tufte
+26,Mike Bostock
+26,Maarten Lambrechts
+27,Elijah Meeks
+28,Jay Jacobs
+28,Bob Russia
+29,Mike Bostock
+30,Mike Bostock
+31,Mike Bostock
+32,Mike Bostock
+33,Mike Bostock
+34,Mike Bostock
+35,Nadieh Bremer
+36,Nadieh Bremer
+37,Pudding
+59,Elijah Meeks
+59,Nadieh Bremer
+59,Mike Bostock
+60,Nadieh Bremer
+66,Alberto Cairo
+67,Andy Kriebel
+68,Steven Franconeri
+83,Elijah Meeks
+83,Enrico Bertini
+83,Moritz Stefaner
+83,Nadieh Bremer
+83,Alberto Cairo
+84,Amanda Cox
+85,Scott Murray
+85,Alli Torban
+85,Elijah Meeks
+85,Nathan Yau
+85,Alberto Cairo
+85,Simon Rogers
+88,Andy Kirk
+89,Ann Emery
+90,Elijah Meeks
+90,Shirley Wu
+90,Nadieh Bremer
+90,Hadley Wickham
+90,Alberto Cairo
+90,Adam Pearce
+90,Mike Bostock
+90,Micah Stubbs
+90,Daniel Shiffman
+90,RJ Andrews
+90,Katya Ognyanova
+91,Elijah Meeks
+91,susie lu
+91,Nadieh Bremer
+91,Mike Freeman
+91,Jessica Rosenkrantz
+91,Sara Soueidan
+91,tom shanley
+91,mike bostock
+91,ian johnson
+91,fil
+91,curran
+91,NA
+92,Mike Bostock
+93,Mike Bostock
+93,Nadieh Bremer
+94,Nadieh Bremer
+95,Stephanie Evergreen
+95,Ann Emery
+97,@timelyportfolio
+98,Alberto Cairo
+98,Elijah Meeks
+98,Tableau Zen Masters
+99,Andy Cotgreave
+99,Andy Kirk
+100,Andy Kriebel
+100,Eva Murray
+101,Cole Knafflic
+102,Cole Knaflic
+102,Jon Schwabish
+102,Ben Goldacre
+103,Cole Nussbaumer Knaflic
+103,Randy Krum
+103,Alan Smith OBE
+104,Elijah Meeks
+104,Alberto Cairo
+105,Elijah Meeks
+105,Alberto Cairo
+105,Lisa Charlotte Rost
+105,Shirley Wu
+105,Nadieh Bremer
+105,Cole Knaflic
+105,David Robinson
+105,Hadley Wickham
+105,Skye Monet
+106,Elijah Meeks
+106,Bora Beran
+107,Hadley Wickham
+108,Hadley Wickham
+108,Nathan Yau
+108,Financial Times
+109,Jeff Heer
+110,Jonni Walker
+110,Nadieh Bremer
+111,Kaggle
+112,Mike Bostock
+113,Mike Bostock
+114,Mike Bostock
+115,Mike Bostock
+116,Mike Bostock
+116,Stephen Few
+117,Moritz Stefaner
+118,Nadieh Bremer
+119,Nadieh Bremer
+119,Alberto Cairo
+120,Noah Veltman
+120,Rich Harris
+120,Michael Keller
+120,Nadja Popovich
+121,Tableau Zen Masters
+122,Tableau Zen Masters
+123,yann le meur
+144,Alberto Cairo
+144,Cole Knaflic
+144,Jorge Camoes
+144,Andy Kirk
+145,Andy Kirk
+146,Ben Jones
+147,Giorgia Lupi
+148,Hadley Wickham
+149,Hadley Wickham
+150,Stephanie Evergreen
+150,Ann Emery
+151,Stephen Few
+156,Elijah Meeks
+160,Hadley Wickham
+161,Mike Bostock
+161,Sylvain Corlay
+162,Stephanie Evergreen
+162,Andy Kirk
+172,Alberto Cairo
+174,Alberto Cairo
+174,Nicolas Rapp
+175,Ben Welsh
+176,Lena Groeger
+177,new york times
+177,washington post
+177,jer thorpe
+177,edward tufte
+178,Pudding
+178,New York Times
+178,Bloomberg
+178,Washington Post
+179,Tableau Zen Masters
+179,Data Remixed
+179,Women in Data
+183,Edward Tufte
+184,Mike Bostock
+186,Cole Knaflic
+186,Ben Jones
+186,Ryan Sleeper
+186,Max Roser
+186,Elijah Meeks
+186,Nathan Yau
+187,Andy Kriebel
+188,Cambridge Intelligence
+189,Cole Knaflic
+190,Cole Knaflic
+190,Stephanie Evergreen
+190,Ann Emery
+191,Elijah Meeks
+191,Lisa Charlotte Rost
+191,Susie Lu
+191,Maarten Lambrechts
+191,Alberto Cairo
+192,Eva Murray
+193,Eva Murray
+193,Andy Kirk
+193,Andy Kreibel
+193,Moritz Stefaner
+194,Giorgia Lupi
+194,Alberto Cairo
+195,John Burn-Murdoch
+195,Hadley Wickham
+195,Nadieh Bremer
+195,Alberto Cairo
+196,Jonathan Drummey
+196, Ryan Sleeper
+197,Mike Bostock
+198,Mike Bostock
+198,Elijah Meeks
+199,Mike Bostock
+199,Elijah Meeks
+199,Alberto Cairo
+199,Matt Daniels
+200,Mike Bostock
+200,Georgia Lupi
+201,Mike Bostock
+201,Nadieh Bremer
+201,Elijah Meeks
+201,Shirley Wu
+202,Moritz Stefaner
+203,Nadieh Bremer
+226,Andy Kriebel
+226,Cole Knaflic
+226,Ryan Sleeper
+227,Andy Kriebel
+227,Eva Murray
+227,Nathan Yau
+227,Elijah Meeks
+228,Elijah Meeks
+228,Mike bodstock
+228,Susie Lu
+228,Bret Victor
+229,Hadley Wickham
+231,Mike Bostock
+232,Rob Simmon
+233,Sarah Drasner
+243,Alberto Cairo
+244,Anya A'Hearn
+245,Edward Tufte
+245,Hadley Wickham
+246,Hadley Wickham
+246,Cole Knaflic
+246,Elijah Meeks
+246,Alberto Cairo
+247,Moritz Stefaner
+247,Mike Bostock
+247,Giorgia Lupi
+247,Gregor Aisch
+248,Stephen Few
+249,Tamara Munzner
+258,Nadieh Bremer
+258,Susie Lu
+259,Scott Murray
+259,Stephanie Evergreen
+259,Alberto Cairo
+260,Adam Pearce
+261,Alberto Cairo
+262,David McCandless
+262,Moritz Stefaner
+262,Nathan Yau
+262,Giorgia Lupi
+263,Martin Stabe
+264,Mike Bostock
+265,Mike Bostock
+265,Gregor Aisch
+265,Adam Pearce
+265,Bret Victor
+265,Matt Daniels
+265,Nadieh Bremer
+265,Shirley Wu
+265,Phillipe Riviere
+265,Noah Veltman
+265,Jason Davies
+266,Mike Bostock
+266,Stabe
+266,Financial Times
+266,New York Times
+266,Wall Street Journal
+268,Moritz Stefaner
+268,Enrico Bertini
+268,Giorgia Lupi
+268,Alberto Cairo
+268,Andy Kirk
+268,Stephen Few
+268,Mike Bostock
+268,Elijah Meeks
+268,Manuel Lima
+268,Robert Kosara
+268,Fernanda Viégas
+268,Martin Wattenberg
+268,Nicholas Felton
+268,Jer Thorp
+269,Nadieh bremer
+269,Jan Willem Tulp
+270,Tableau Zen Masters
+275,538
+276,Alberto Cairo
+277,Alberto Cairo
+278,Andy Cotgreave
+278,Nadieh Bremer
+279,Andy Kirk
+280,Bridget Cogley
+281,Cole Knaflic
+281,Jon Schwabish
+281,Alberto Cairo
+281,Andy Kirk
+282,Edward Tufte
+283,Edward Tufte
+283,Mike Bostock
+283,Grant Sanderson
+284,Elijah Meeks
+284,Nadieh Bremer
+285,Elijah Meeks
+285,Susie Lu
+285,Noah Veltman
+285,Alberto Cario
+285,Robert Kosara
+285,Moritz Stefaner
+285,Nadieh Bremer
+285,Kim Rees
+285,Steven Few
+285,Edward Tufte
+286,Giorgia Lupi
+287,Mike Bostock
+288,Mike Bostock
+288,Elijah Meeks
+289,Mike Bostock
+289,Elijah Meeks
+290,Nadieh Bremer
+290,Lisa Charlotte Rost
+290,Moritz Stefaner
+290,Aditya Jain
+290,Mahir Yavuz
+291,Nadieh Bremer
+291,mike Bostock
+291,Lisa Charlotte Rost
+291,Jason Davies
+291,Jan Willem Tulp
+292,Stephanie Evergreen
+292,Ann Emery
+292,Alberto Cairo
+293,Stephen Few
+294,The Infolab
+308,Hadley Wickham
+308,Alberto Cairo
+309,Alberto Cairo
+310,Elijah Meeks
+310,Mike Bostock
+310,New York Times
+310,Nadieh Bremer
+310,Shirley Wu
+310,Alberto Cairo
+310,Anya A Hearn
+310,Cole Knaflic
+311,Hadley Wickham
+311,Mara Averick
+311,538
+312,Leland Wilkinson
+312,Mike Bostock
+316,Mike Bostock
+317,Edward Tufte
+318,Enrico Bertini
+318,Kaiser Fung
+318,Nathan Yau
+318,Alberto Cairo
+318,Stephanie Evergreen
+319,Giorgia Lupi
+320,OpenVisConf
+326,Giorgia Lupi
+327,Edward Tufte
+327,David McCandless
+327,Alberto Cairo
+327,Mona Chalabi
+327,Giorgia Lupi
+327,Mike Bostock
+328,Mike Bostock
+329,Mike Bostock
+329,Alberto Cairo
+329,Nathan Yau
+329,New York Times
+329,Washington Post
+330,Nathan Yau
+334,Mike Bostock
+334,Alberto Cairo
+335,Mike Bostock
+335,Elijah Meeks
+335,Micah Stubbs
+339,Alberto Cairo
+340,Alberto Cairo
+341,Alberto Cairo
+341,Stephen Few
+342,Andy Kriebel
+343,Anya A'Hearn
+343,Jonathan Drummey
+343,Matt Chambers
+343,Ryan Sleeper
+343,Joshua Mulligan
+343,Ken Flerlage
+344,David Mccandless
+345,Edward tufte
+345,Flowing Data
+346,Elijah Meeks
+347,Elijah Meeks
+347,Adam Pearce
+347,Nadieh Bremer
+347,Alberto Cairo
+347,Dominicus Bauer
+348,Elijah Meeks
+348,Lisa Charlotte Rost
+348,Robert Kosara
+349,Hadley Wickham
+349,Nadieh Bremer
+349,Lisa Charlotte Rost
+349,Gregor Aisch
+349,Jerome Cukier
+349,@hardmaru
+349,Micah Stubbs
+349,Chris Olah
+350,Mike Bostock
+350,Alberto Cairo
+350,Scott Murray
+350,Gregor Aisch
+351,Mike Bostock
+351,Edward Tufte
+352,Nadieh Bremer
+353,New York Times
+353,Washington Post
+353,National Geographic
+354,Nicholas Felton
+355,Pudding
+355,538
+355,New York Times
+355,Mike Bostock
+356,Ryan Sleeper
+356,Andy Kriebel
+357,Shirley Wu
+358,Stephen Few
+359,Stephen Few
+359,Alberto Cairo
+359,Andy Kirk
+359,Robert Kosara
+360,Storytelling with Data
+361,Susie Lu
+362,Tableau Zen Masters
+373,Alberto Cairo
+374,Andy Kirk
+374,Alberto Cairo
+374,Elijah Meeks
+374,Moritz Stefaner
+374,Nadieh Bremer
+375,Elijah Meeks
+375,Mike Bostock
+375,Maarten Lambrechts
+375,Nadieh Bremer
+375,Mara Averick
+375,Shirley Wu
+376,Mike Bostock
+377,Mike Bostock
+377,Elijah Meeks
+377,Andy Kirk
+378,Ryan Sleeper
+378,Andy Cotgreave
+378,Stephanie Evergreen
+378,Matt Francis
+379,Stephanie Evergreen
+383,Mike Bostock
+384,Mike Bostock
+385,Mike Bostock
+385,Brett Victor
+385,Matt Conlen
+390,Elijah Meeks
+390,Nadieh Bremer
+390,Moritz Stefaner
+391,Amanda Cox
+392,Simon Rogers
+396,Ann Emery
+396,Stephanie Evergreen
+396,Cole Knaflic
+396,dataViz Today podcast
+397,Robert Kosara
+397,Cole Knafflic
+397,Anya A’Hearn
+400,Alberto Cairo
+401,Alberto Cairo
+401,Andy Kirk
+401,Giorgia Lupi
+401,Nadieh Bremer
+401,New York Times
+401,Washington Post
+401,SCMP
+401,Bloomberg
+402,Andy Kirk
+403,Cole Knafflic
+404,Edward Tufte
+404,Alberto Cairo
+404,Giorgia Lupi
+404,Elijah Meeks
+404,Gregor Aisch
+404,Mona Chalabi
+404,Jonathan Schwabish
+404,Stefanie Posavec
+404,Nadieh Bremer
+404,RJ Andrews
+404,Amanda Cox
+404,Lynn Cherny
+404,Jorge Camoes
+404,Jonathan Corum
+404,Maarten Lambrechts
+404,Rob Simmon
+404,Stephanie Evergreen
+404,Hannah Fairfield
+404,Robert Kosara
+405,Edward Tufte
+405,Cole Knaflic
+405,Alberto Cairo
+405,Hans Rosling
+406,Edward Tufte
+406,Feynman
+406,The Upshot
+406,538
+406,The Guardian
+407,Gregor Aisch
+408,Lisa Charlotte Rost
+408,Elijah Meeks
+408,Alberto Cairo
+409,Mike Bostock
+410,Mike Bostock
+411,Mike Bostock
+411,Alberto Cairo
+412,Nadieh Bremer
+413,Stephen Few
+425,Cole Knaflic
+426,New York Times
+426,Wall Street Journal
+426,Joshua Stevens
+431,Mike Bostock
+432,Tamara Munzner
+433,The Upshot
+433,Pudding
+443,Mike Bostock
+444,Hadley Wickham
+444,Stephanie Evergreen
+444,Anne Emery
+444,Jon Schwabish
+446,Alberto Cairo
+447,Cleveland
+448,Edward Tufte
+449,Edward Tufte
+449,Cole Knaflic
+450,Elijah Meeks
+451,Mike Bostock
+452,Moritz Stefaner
+452,Kim Rees
+452,Amanda Cox
+452,Lynn Cherney
+453,Susie Lu
+453,Elijah Meeks
+464,Krzysztof Lenk
+465,Mike Bostock
+465,Ben Shneiderman
+465,Fernanda Viégas
+466,Nathan Yau
+466,Manuel Lima
+469,Lena Groeger
+471,Colin Ware
+472,Hadley Wickham
+475,Kelly Martin
+475,Alberto Cairo
+478,Alberto Cairo
+478,Mike Bostock
+478,Gregor Aisch
+479,Andrew Cardno
+479,Elijah Meeks
+480,Andy Kirk
+480,Edward Tufte
+480,Stephen Few
+480,Tableau
+481,Eric Rodenbeck
+482,Lisa Charlotte Rost
+483,Mike Bostock
+484,Mike Bostock
+485,Mike bostock
+485,Elijah Meeks
+485,Nadieh Bremer
+485,Susie Lu
+486,Nathan Yau
+486,Alberto Cairo
+486,Andy Cotgreave
+486,Elijah Meeks
+486,Robert Kosara
+494,Jason Sundram
+495,Tableau Zen Masters
+496,Steven Franconeri
+496,Jeff Heer
+496,Jessica Hullman
+497,Giorgia Lupi
+497,Alberto Cairo
+497,Robert Kosara
+497,Elijah Meeks
+497,Jeff Heer
+500,Giorgia Lupi
+500,Nadieh Bremer
+500,Amanda Cox
+500,Fernanda Viegas
+500,Martin Wattenberg
+500,Jeff Heer
+500,Mike Bostock
+500,Alberto Cairo
+501,Andy Cotgreave
+502,Jon Schwabish
+502,Cole Knaflic
+502,Alberto Cairo
+503,Lynn Cherny
+504,Mike Bostock
+509,Andy Cotgreave
+510,Andy Kirk
+511,Andy Kirk
+511,Alberto Cairo
+511,Stephanie Evergreen
+512,Cesar Hidalgo
+513,Giorgia Lupi
+513,Sheelagh Carpendale
+514,Hadley Wickham
+525,Elijah Meeks
+525,Mike Bostock
+525,Edward Tufte
+526,Alberto Cairo
+526,Scott Murray
+526,Mike Bostock
+527,Elijah Meeks
+527,Susie Lu
+527,Nadiah Bremer
+527,Andy Kirk
+527,Enrico Bertini
+527,Moritz Stefaner
+528,Mike Bostock
+537,Edward Tufte
+537,Hadley Wickham
+537,Mike Bostock
+537,New York Times
+538,Mike Bostock
+538,Elijah Meeks
+538,Shirley Wu
+538,Nadieh Bremer
+543,Moritz Stefaner
+545,Alberto Cairo
+546,Alberto Cairo
+547,Alberto Cairo
+547,Cole Knaflic
+547,Stephen Few
+548,Alberto Cairo
+548,Maarten Lambrechts
+548,Robert Kosara
+549,Andy Kirk
+550,Andy Kirk
+551,Andy Kirk
+551, RJ Cooper
+551, Amanda Cox
+551, Giorgia Lupi
+551, Alberto Cairo
+552,Ben Fry
+552,David McCandless
+552,Moritz Stefaner
+552,Martin Wattenberg
+552,Fernanda Viegas
+552,Amanda Cox
+552,Gregor Aisch
+553,Bret Victor
+554,Cole Knaflic
+554,Alberto Cairo
+555,Edward Tufte
+556,Elijah Meeks
+557,Elijah Meeks
+558,Elijah Meeks
+559,Elijah Meeks
+559,Moritz Stefaner
+559,Enrico Bertini
+559,Nadieh Bremer
+559,Amanda Cox
+559,Alberto Cairo
+560,Elijah Meeks
+560,Susie Lu
+560,Rachel Binx
+560,Enrico Bertini
+560,Nicolas Belmonte
+560,Moritz Stefaner
+560,Fernanda Viega
+560,Martin Wattenberg
+560,Amanda Cox
+560,Andy Kirk
+560,Danyel Fisher
+560,Mirah Meyer
+561,Hans Rosling
+561,Hadley Wickham
+562,Mike Bostock
+563,Mike Bostock
+564,Mike Bostock
+564,Bret Victor
+565,Moritz Stefaner
+565,Alberto Cairo
+565,Jeff Heer
+566,Nathan Yau
+567,Nathan Yau
+568,Robert Kosara
+568,Andy Kirk
+568,Cole Knaflic
+569,Stephanie Evergreen
+569,Ann Emery
+570,Stephen Few
+571,Stephen Few
+572,Stephen Few
+572,Alberto Cairo
+573,Stephen Few
+573,Edward Tufte
+573,Mike Bostock
+574,Tamara Munzner
+575,Wall Street Journal
+576,Zan Armstrong
+576,Elijah Meeks
+576,Bret Victor
+576,Tony Chu
+600,Elijah Meeks
+600,Edward Tufte
+602,Andy Kirk
+603,Cole Knaflic
+603,Stephen Few
+604,Edward Tufte
+605,Edward Tufte
+605,Alberto Cairo
+605,Hadley Wickham
+606,ESRI
+606,Mapbox
+607,Jean-Daniel Fekete
+607,Stephen North
+608,Mike Bostock
+609,Tableau
+620,538
+620,New York Times
+620,Washington Post
+620,Elliot Morris
+620,Harry Entin
+621,Elijah Meeks
+621,Nadieh Bremer
+621,Alli Torban
+621,Moritz Stefaner
+621,Mike Cisneros
+621,Hadley Wickham
+621,Amanda Cox
+622,Mike Bostock
+623,Mike Bostock
+623,Hadley Wickham
