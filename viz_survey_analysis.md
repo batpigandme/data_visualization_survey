@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization 2018 Survey"
 author: "Mara Averick"
-date: "6/23/2018"
+date: '2018-06-24'
 output: 
   html_document:
     keep_md: TRUE
@@ -15,6 +15,7 @@ Based on [2018 Data Visualizatio Survey Results](https://medium.com/@Elijah_Meek
 ```r
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(here))
+suppressPackageStartupMessages(library(tidytext))
 ```
 
 
@@ -57,7 +58,7 @@ skimr::skim_to_list(results_2018)
 
 
 
-Get only records with responses to "thought leaders" question.
+Get only records with responses to "thought leaders" question.[^whom]
 
 
 ```r
@@ -109,5 +110,44 @@ skimr::skim(thought_leaders)
 ##  respondent_id       0      770 770   1   3     0      322
 ```
 
+Let's look at the "thought leaders" chosen by more than one respondent (I'm just assuming someone didn't bother to write one name repeatedly, though I guess one could filter for that if so desired).
 
 
+```r
+leader_board <- thought_leaders %>%
+  count(leader, sort = TRUE) %>%
+  filter(n > 1)
+
+head(leader_board, n = 10)
+```
+
+```
+## # A tibble: 10 x 2
+##    leader              n
+##    <chr>           <int>
+##  1 mike bostock       81
+##  2 alberto cairo      68
+##  3 elijah meeks       56
+##  4 nadieh bremer      44
+##  5 andy kirk          27
+##  6 edward tufte       27
+##  7 hadley wickham     23
+##  8 cole knaflic       19
+##  9 moritz stefaner    19
+## 10 giorgia lupi       16
+```
+
+Now we can rank them, and get the frequencies of leader mentions as a percentage of the total of leaders mentioned more than one time in the survey.
+
+
+```r
+leader_mentions <- leader_board %>%
+  summarise(total = sum(n))
+  
+leader_board <- leader_board %>%
+  mutate(total = leader_mentions$total,
+         rank = dense_rank(desc(n)),
+         freq = n/total)
+```
+
+[^whom]: Yes, it _should_ be "whom," but Elijah is a barbarian, and we'll just have to take things as they are.
