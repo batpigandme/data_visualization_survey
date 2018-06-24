@@ -157,14 +157,17 @@ top_10 <- leader_board %>%
 top_10 %>%
   mutate(leader = forcats::fct_reorder(leader, as.numeric(n))) %>%
   ggplot(aes(leader, n)) +
-  coord_flip() +
   geom_col() + 
-  labs(title="Most mentioned thought leaders", 
-       subtitle="Data visualization survey 2018") +
-  hrbrthemes::theme_ipsum_rc()
+  scale_y_continuous(expand=c(0,0)) +
+  coord_flip() +
+  labs(title = "Most mentioned thought leaders", 
+       subtitle = "Who do you look to as a thought leader in data visualization?",
+       caption = "source: 2018 Data Visualization Survey, <https://github.com/emeeks/data_visualization_survey>") +
+  hrbrthemes::theme_ipsum_rc() +
+  theme(text = element_text(family = "Concourse T4"))
 ```
 
-<img src="viz_survey_analysis_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+<img src="viz_survey_analysis_files/figure-html/unnamed-chunk-11-1.png" width="960" />
 
 
 [^whom]: Yes, it _should_ be "whom," but Elijah is a barbarian, so we'll just have to take things as they are.
