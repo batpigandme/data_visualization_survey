@@ -2,7 +2,7 @@
 title: "Data Visualization 2018 Survey"
 author: "Mara Averick"
 date: '2018-06-24'
-output: 
+output:
   html_document:
     keep_md: TRUE
 ---
@@ -14,8 +14,6 @@ Based on [2018 Data Visualizatio Survey Results](https://medium.com/@Elijah_Meek
 
 ```r
 suppressPackageStartupMessages(library(tidyverse))
-suppressPackageStartupMessages(library(here))
-suppressPackageStartupMessages(library(tidytext))
 ```
 
 
@@ -142,6 +140,7 @@ Now we can rank them, and get the frequencies of leader mentions as a percentage
 
 ```r
 leader_mentions <- leader_board %>%
+  mutate(leader = forcats::fct_infreq(leader, ordered = TRUE)) %>%
   summarise(total = sum(n))
   
 leader_board <- leader_board %>%
@@ -150,4 +149,22 @@ leader_board <- leader_board %>%
          freq = n/total)
 ```
 
-[^whom]: Yes, it _should_ be "whom," but Elijah is a barbarian, and we'll just have to take things as they are.
+
+```r
+top_10 <- leader_board %>%
+  filter(rank <= 10)
+
+top_10 %>%
+  mutate(leader = forcats::fct_reorder(leader, as.numeric(n))) %>%
+  ggplot(aes(leader, n)) +
+  coord_flip() +
+  geom_col() + 
+  labs(title="Most mentioned thought leaders", 
+       subtitle="Data visualization survey 2018") +
+  hrbrthemes::theme_ipsum_rc()
+```
+
+<img src="viz_survey_analysis_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+
+
+[^whom]: Yes, it _should_ be "whom," but Elijah is a barbarian, so we'll just have to take things as they are.
