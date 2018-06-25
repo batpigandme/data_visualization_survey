@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization 2018 Survey"
 author: "Mara Averick"
-date: '2018-06-24'
+date: '2018-06-25'
 output:
   html_document:
     keep_md: TRUE
@@ -157,17 +157,22 @@ top_10 <- leader_board %>%
 top_10 %>%
   mutate(leader = forcats::fct_reorder(leader, as.numeric(n))) %>%
   ggplot(aes(leader, n)) +
-  geom_col() + 
+  geom_col(colour = "#ffba82", fill = "#ffba82", alpha = 0.9) + 
   scale_y_continuous(expand=c(0,0)) +
   coord_flip() +
   labs(title = "Most mentioned thought leaders", 
        subtitle = "Who do you look to as a thought leader in data visualization?",
-       caption = "source: 2018 Data Visualization Survey, <https://github.com/emeeks/data_visualization_survey>") +
+       caption = "source: 2018 Data Visualization Survey, https://github.com/emeeks/data_visualization_survey") +
   hrbrthemes::theme_ipsum_rc() +
-  theme(text = element_text(family = "Concourse T4"))
+  theme(plot.background = element_rect(colour = "#f7f6f5"),
+        text = element_text(family = "Concourse T4"),
+        plot.title = element_text(family = "Concourse T4", face = "bold"),
+        plot.subtitle = element_text(family = "Concourse T3"),
+        axis.text.x = element_text(family = "Concourse T2"))
 ```
 
 <img src="viz_survey_analysis_files/figure-html/unnamed-chunk-11-1.png" width="960" />
+
 
 
 [^whom]: Yes, it _should_ be "whom," but Elijah is a barbarian, so we'll just have to take things as they are.
